@@ -1,0 +1,58 @@
+.header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo__link {
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 65px;margin-right: -200px;
+}
+
+.nav__link {
+  color: rgb(97, 99, 100);
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+
+  &:hover {
+    text-decoration: underline rgb(182, 152, 116);
+    text-decoration-thickness: 3px;
+    text-underline-offset: 9px;
+    color: rgb(0, 0, 0);
+  }
+}
+
+.header__btn {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.modals {
+  display: none;
+  position: absolute;
+  top: 60px;
+  width: 200px;
+  height: 130px;
+  background: #999595;
+  right: 0;
+  right: 250px;
+  border-radius: 10px;
+  padding-left: 5px;
+  padding-top: 5px;
+
+}
+.modal {
+  display: block;
+}
